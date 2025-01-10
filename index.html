@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthDial</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <span>Health</span><span style="color: #FF6F00;">Dial</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Add Hospital/Clinic</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+        <button class="btn-login">Login / Signup</button>
+    </header>
+
+    <main>
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search for services...">
+        </div>
+
+        <div class="cards-container">
+            <div class="card">
+                <img src="/image/search.png" alt="Search Icon">
+                <p>Search</p>
+            </div>
+            <div class="card">
+                <img src="/image/doctor.png" alt="Doctors Icon">
+                <p>Doctors</p>
+            </div>
+            <div class="card">
+                <img src="/image/nurse.png" alt="Nursing Staff Icon">
+                <p>Nursing Staff</p>
+            </div>
+            <div class="card">
+                <img src="/image/hospital.png" alt="Hospitals Icon">
+                <p>Hospitals</p>
+            </div>
+            <div class="card">
+                <img src="/image/clinic.png" alt="Clinics Icon">
+                <p>Clinics</p>
+            </div>
+            <div class="card">
+                <img src="/image/hospital-bed.png" alt="Services Icon">
+                <p>Services</p>
+            </div>
+            <div class="card">
+                <img src="/image/article.png" alt="Harealth Blogs Icon">
+                <p>Health Blogs</p>
+            </div>
+            <div class="card">
+                <img src="/image/hosp.png" alt="Add Yours Icon">
+                <p>Add Yours</p>
+            </div>
+            <div class="card">
+                <img src="/image/help-desk.png" alt="Help Icon">
+                <p>Help</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-chevron-down mt-4" style="font-size: 24px; color: gray;"></i>
+                <p class="mt-3">Show More</p>
+            </div>
+        </div>
+    </main>
+    <section id="featured-partners" class="container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide custom-carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/image/image1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/image2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/image3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="log" class="text-center mt-10 mb-5">
+        <button type="button" class="btn btn-primary mt-3" disabled>Login</button>
+        <button type="button" class="btn btn-outline-primary mt-3" disabled>Signup</button>
+        <nav class="navbar>
+            <div class=" container-fluid">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Best hospital / Clinics Nearby"
+                    aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </nav>
+    </section>
+    <section id="services" class="container">
+        <h1 class="fw-bold text text-center mt-3 mb-5">Services </h1>
+        <div class="card-group gap-3">
+            <div class="card">
+                <img src="/image/hca.jpg" class="card-img-top" alt="..." style="width: auto ;height:auto">
+                <div class="card-body">
+                    <h5 class="card-title">Home Care Assistance</h5>
+                    <p class="card-text">Home Care Assistance Services offer comprehensive support for daily activities
+                        and medical needs, en...</p>
+                </div>
+                <a href="#" class="btn btn-primary mb-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/image/rbs.jpg" class="card-img-top" alt="..." style="width: auto ;height:auto">
+                <div class="card-body">
+                    <h5 class="card-title">Blood Sugar and Insulin Services</h5>
+                    <p class="card-text">Blood Sugar and Insulin Management Services are essential for individuals
+                        living with diabetes, help...
+                    </p>
+                </div>
+                <a href="#" class="btn btn-primary mb-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/image/bp_services.jpg" class="card-img-top" alt="..." style="width: auto ;height:auto">
+                <div class="card-body">
+                    <h5 class="card-title">Blood Pressure Check</h5>
+                    <p class="card-text">Blood Pressure Monitoring Services are vital for the effective management and
+                        prevention of hyperten...</p>
+                </div>
+                <a href="#" class="btn btn-primary mb-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="card-group mt-5 gap-3">
+            <div class="card">
+                <img src="/image/chronic_disease.jpg" class="card-img-top" alt="..." style="width: auto ;height:auto">
+                <div class="card-body">
+                    <h5 class="card-title">Chronic Disease Management</h5>
+                    <p class="card-text">Our <strong>Chronic Disease Management Services</strong> provide comprehensive
+                        care for managing ...</p>
+                </div>
+                <a href="#" class="btn btn-primary mb-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/image/post-surgical.jpg" class="card-img-top" alt="..." style="width: auto ;height:auto">
+                <div class="card-body">
+                    <h5 class="card-title">Post-Surgical Care</h5>
+                    <p class="card-text"><strong>Healthdial</strong> is dedicated to ensuring your smooth and safe
+                        recovery after surgery ...
+                    </p>
+                </div>
+                <a href="#" class="btn btn-primary mb-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/image/catheter.jpg" class="card-img-top" alt="..." style="width: auto ;height:auto">
+                <div class="card-body">
+                    <h5 class="card-title">Urinary Catheter &amp; Tubings Care</h5>
+                    <p class="card-text"><strong>Urinary Catheter and Tubing Care Services</strong> are essential for
+                        maintaining proper h...</p>
+                </div>
+                <a href="#" class="btn btn-primary mb-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimoneals">
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Testimonials</h2>
+                    <a href="#" class="view-all">
+                        View All <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="testimonials-wrapper">
+                    <div class="testimonial-card">
+                        <div class="quote-icon">“</div>
+                        <p>Best services and top-class platform. Must visit for once.</p>
+                        <div class="quote-icon">“</div>
+                        <div class="user-info">
+                            <div class="user-avatar">M</div>
+                            <span class="user-name">Manish Dhaker</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote-icon">“</div>
+                        <p>Nice, I really appreciate the services that were provided by HealthDial.</p>
+                        <div class="quote-icon">“</div>
+                        <div class="user-info">
+                            <div class="user-avatar">K</div>
+                            <span class="user-name">Kamlesh</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote-icon">“</div>
+                        <p>Very good... It's very good services and authentic nursing officer I got. Thanks</p>
+                        <div class="quote-icon">“</div>
+                        <div class="user-info">
+                            <div class="user-avatar">R</div>
+                            <span class="user-name">Ramlal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    <section id="Health Insights" class="container">
+        <h1 class="fw-bold text text-center mt-3 mb-5">Health Insights </h1>
+        <div class="card-group gap-3">
+            <div class="card">
+                <img src="/image/vit_d.jpg" class="card-img-top" alt="..." style="width: auto ;height:auto">
+                <div class="card-body">
+                    <h5 class="card-title">Vitamin D Deficiency - Causes, Symptoms, and Solutions</h5>
+                    <p class="card-text">Vitamin D deficiency is a widespread health issue that can lead to various
+                        health problems, including bone disorders like rickets in children and osteomalacia i...</p>
+                </div>
+                <a href="#" class="btn btn-primary mb-2">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/image/dengue.jpg" class="card-img-top" alt="..." style="width: auto ;height:auto">
+                <div class="card-body">
+                    <h5 class="card-title">Dengue fever - Cause, Symptoms?</h5>
+                    <p class="card-text">Dengue fever, caused by the dengue virus transmitted by Aedes mosquitoes,
+                        continues to be a significant global health concern. With outbreaks occurring in tropi...
+                    </p>
+                </div>
+                <a href="#" class="btn btn-primary mb-2">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/image/obesity.jpg" class="card-img-top" alt="..." style="width: auto ;height:auto">
+                <div class="card-body">
+                    <h5 class="card-title">Obesity - Health Problems ??</h5>
+                    <p class="card-text">Obesity has emerged as a global epidemic, posing significant challenges to
+                        public health systems and societies worldwide.
+                        With rising prevalence rates, particu...</p>
+                </div>
+                <a href="#" class="btn btn-primary mb-2">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq" class="container mt-5 mb-5">
+        <h1 class="fw-bold text text-center mt-5 mb-3">FAQ's </h1>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        How can I find a Nursing Officer on your platform?
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">You can easily find a Nursing Officer by using our search feature.
+                        Simply enter your preferred location, address details, or name to narrow down your search. Once
+                        you find a suitable match, you can view their profile, contact them via call or chat, and make
+                        arrangements accordingly.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Can I edit my details after signing up?
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Yes, as a user or nursing officer, you have the flexibility to edit your details post sign-up. Simply log in to your account, navigate to the profile section, and make the necessary changes. It's important to keep your information updated for accurate communication and service delivery.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Can I leave feedback or comments about your services?
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Absolutely! We value your feedback and encourage you to share your thoughts about our services. You can leave comments and reviews directly on our main page, where you can share your experiences, suggestions, or any concerns you may have. Your input helps us continually improve and tailor our services to better serve you.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+                        How can I contact your team for inquiries or assistance?
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">For any inquiries or assistance, you can reach out to us through the Contact Us page. Simply fill out the provided form with your message, and our team will get back to you as soon as possible. Alternatively, you can also reach us via email or phone, details of which are listed on the Contact Us page.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseOne">
+                        What types of services do you offer on your platform?
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">We offer a range of healthcare services aimed at providing comprehensive support to our users. These services include but are not limited to: nursing assistance, medical consultations, home healthcare, wellness programs, and more. You can explore our Services section for detailed descriptions of each service offered.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <footer class="py-5 container-fluid p-3 mb-0 bg-dark text-white" style="position: relative; bottom: 0; width: 100%;">
+            <div class="row">
+              <div class="col-2">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                </ul>
+              </div>
+          
+              <div class="col-2">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                </ul>
+              </div>
+          
+              <div class="col-2">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                </ul>
+              </div>
+          
+              <div class="col-4 offset-1">
+                <form>
+                  <h5>Subscribe to our newsletter</h5>
+                  <p>Monthly digest of what's new and exciting from us.</p>
+                  <div class="d-flex w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                    <button class="btn btn-primary" type="button">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          
+            <div class="d-flex justify-content-between py-1 my-1 border-top">
+              <p class="text-center mt-3">© 2021 Company, Inc. All rights reserved.</p>
+              <ul class="list-unstyled d-flex">
+                <li class="ms-3 mt-3"><a href="#" style="text-decoration: none; color: white;"><i class="fab fa-facebook" style="margin-right: 8px;"></i> Facebook</a></li>
+                <li class="ms-3 mt-3"><a href="#" style="text-decoration: none; color: white;"><i class="fab fa-instagram" style="margin-right: 8px;"></i> Instagram</a></li>
+                <li class="ms-3 mt-3"><a href="#" style="text-decoration: none; color: white;"><i class="fab fa-twitter" style="margin-right: 8px;"></i> Twitter (x)</a></li>
+              </ul>
+            </div>
+          </footer>
+          
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
